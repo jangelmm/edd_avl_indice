@@ -90,6 +90,29 @@ classDiagram
     + main(args: String[]): void
   }
 
+  class Arbol {
+    - Nodo raiz
+    + Arbol()
+    + inOrden(textArea: JTextArea): void
+    + buscar(dato: String): Nodo
+    + insertar(nuevo: Nodo): boolean
+    + insertarAVL(nuevo: Nodo, subAr: Nodo): Nodo
+    + obtenerFe(aux: Nodo): int
+    + rotacionIzquierda(n: Nodo): Nodo
+    + rotacionDerecha(n: Nodo): Nodo
+    + rotacionDobleIzquierda(n: Nodo): Nodo
+    + rotacionDobleDerecha(n: Nodo): Nodo
+    + agregar(nuevoNodo: Nodo): void
+    + ayudaInOrden(aux: Nodo, textArea: JTextArea): void
+    + creaRamas(archivoCSV: String): String
+    + leerLineaCSV(archivoCSV: String, numeroLinea: int): String
+    + setNumero(numero: int): void
+    + setString(x: String): void
+    + leerString(s: String): String
+    + leerInt(s: String): int
+    + imprimir(s: String, textArea: JTextArea): void
+  }
+
 Arboll ..> Nodo
 Arboll ..> ExceptionChar
 Arboll ..> ExceptionNumero
