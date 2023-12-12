@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Nodo
+comment1.params=ide\ pos
+comment1.target=Nodo(java.lang.String,\ int)
+comment10.params=i
+comment10.target=void\ setFe(int)
+comment11.params=
+comment11.target=int\ getFe()
+comment12.params=
+comment12.target=java.lang.String\ toString()
+comment2.params=pos
+comment2.target=void\ setPos(int)
+comment3.params=
+comment3.target=int\ getPos()
+comment4.params=ide
+comment4.target=void\ setClave(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getDato()
+comment6.params=derecha
+comment6.target=void\ setDerecha(Nodo)
+comment7.params=
+comment7.target=Nodo\ getDerecha()
+comment8.params=izquierda
+comment8.target=void\ setIzquierda(Nodo)
+comment9.params=
+comment9.target=Nodo\ getIzquierda()
+numComments=13
